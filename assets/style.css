@@ -1,0 +1,109 @@
+body{
+    background-image:url("./images/cloud.jpg");
+    
+}
+
+header{
+    text-align: right;
+    background-color: rgb(14, 46, 73);
+    width: 100%;
+    height:30px;
+    padding-top:100px;
+    padding-bottom: 10px;
+    border:solid;
+    border-color:rgb(107, 8, 8);
+}
+
+h1{
+    font-style: italic;
+    color:rgb(173, 186, 155)
+}
+   
+a {
+    display: inline;
+    font-size: 25px;
+    margin: 10px;
+    font-style: italic;
+}
+
+section {
+    text-align: center;
+    background-color: rgb(122, 122, 117);
+    height: 500px;
+    width: 700px;
+    margin: 10px;
+    border:solid;
+    border-color: rgb(107, 8, 8);
+
+ 
+   
+}
+
+#s1{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.section2 {
+    background-color: rgb(122, 122, 117);
+  
+    height: 200px;
+    width:800px;
+    border: solid;
+    border-color:rgb(107, 8, 8);
+    
+}
+#s2 {
+    position:relative;
+    left:80px;
+    bottom:350px;
+    font-size: 30px;
+    
+}
+
+.section3{
+    width:600px;
+    border: solid;
+    border-width:;
+    border-color: rgb(107, 8, 8);
+    background-color: rgb(121, 122, 117);
+  
+}
+
+
+
+#s3 {
+    position:relative;
+    left: 500px;
+    bottom: 450px;
+    font-size: 30px;
+    
+}
+
+.section4 {
+    width:400px;
+    border-width: 5px;
+    border-radius: 70px;
+    
+}
+    
+
+#s4 {
+    position: relative;
+    left:1150px;
+    bottom: 1200px;
+    font-size: 30px;
+    background-image: url();
+}
+
+.head1, .head2, .head3 {
+    background-color: rgb(109, 108, 110);
+    margin-top: -37px;
+    padding-bottom: 20px;
+    border: solid  rgb(107, 8, 8);
+    border-style:double;
+    border-width: px;
+    
+    
+}
