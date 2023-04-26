@@ -1,9 +1,23 @@
-body{
-    background-image:url("./images/cloud.jpg");
+body {
+    object-fit: fill;
+    background-color: black;
+   
+    
     
 }
 
-header{
+#tippy {
+    color:rgb(244, 106, 136);
+    font-size: 50px;
+}
+#hat {
+    position: relative;
+    bottom: 45px;
+}
+
+
+
+header {
     text-align: right;
     background-color: rgb(14, 46, 73);
     width: 100%;
@@ -14,9 +28,11 @@ header{
     border-color:rgb(107, 8, 8);
 }
 
-h1{
+h1 {
     font-style: italic;
-    color:rgb(173, 186, 155)
+    color:rgb(240, 243, 235);
+    
+
 }
    
 a {
@@ -39,9 +55,9 @@ section {
    
 }
 
-#s1{
+#s1 { 
     font-size: 30px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+   ;
 }
 
 
@@ -65,7 +81,7 @@ section {
 .section3{
     width:600px;
     border: solid;
-    border-width:;
+    border-width:px;
     border-color: rgb(107, 8, 8);
     background-color: rgb(121, 122, 117);
   
@@ -85,7 +101,6 @@ section {
     width:400px;
     border-width: 5px;
     border-radius: 70px;
-    
 }
     
 
@@ -94,7 +109,8 @@ section {
     left:1150px;
     bottom: 1200px;
     font-size: 30px;
-    background-image: url();
+    
+
 }
 
 .head1, .head2, .head3 {
@@ -107,3 +123,27 @@ section {
     
     
 }
+
+img {
+    object-fit:fill;
+    border:solid;
+    border-width: 5px;
+    border-radius: 50px;
+    
+    
+}
+
+@media screen and (max-width:1200px) {
+    header {
+      background: #5533c4;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    body {
+      background-color: white;
+    }
+  }
+  
+ 
