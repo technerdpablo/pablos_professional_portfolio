@@ -8,12 +8,26 @@ body {
 
 
 #tippy {
-    color:rgb(101, 5, 5);
+    color:rgb(238, 217, 217);
     font-size: 50px;
-    font-display:;
     
+   
 }
 
+
+
+.scroll {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    color: rgb(182, 212, 52);
+    text-shadow: 2px 4px 4px #000000;
+    font-size: 60px;
+    padding-right: 30px;
+    
+  
+    
+}
+    
 
 
 
@@ -34,7 +48,7 @@ header {
     width: 100%;
     height:30px;
     padding-top:100px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     border:solid;
     border-width:5px;
     border-color:rgb(107, 8, 8);
@@ -47,7 +61,9 @@ header {
 h1 {
     font-style: italic;
     color:rgb(240, 243, 235);
-    
+    text-align: center;
+    text-shadow: 5px 5px 5px #000000;
+
 
 }
    
@@ -74,6 +90,9 @@ section {
     border:solid;
     border-color: rgb(107, 8, 8);
     border-width: 5px;
+    border-radius: 5px;
+    box-shadow:0px 0px 0px 5px black;
+   
     
 
  
@@ -93,14 +112,16 @@ section {
 
 .section2 {
     background-color: rgb(122, 122, 117);
-  
     height: 200px;
     width:800px;
     border: solid;
     border-width: 5px;
     border-color:rgb(107, 8, 8);
-    
+    box-shadow:0px 0px 0px 5px black;
+  
+
 }
+
 
 
 
@@ -116,16 +137,17 @@ section {
 
 
 .section3{
+    height: 700px;
     width:600px;
     border: solid;
     border-width:5px;
     border-color: rgb(107, 8, 8);
     background-color: rgb(121, 122, 117);
-  
-  
+    box-shadow:0px 0px 0px 5px black
 
-  
 }
+
+
 
 
 
@@ -134,7 +156,7 @@ section {
     left: 500px;
     bottom: 450px;
     font-size: 30px;
-    
+   
 }
 
 
@@ -144,7 +166,8 @@ section {
     width:400px;
     border-width: 5px;
     border-radius: 70px;
-    
+    background-image: url(./images/pngtree-abstract-black-and-white-wavy-pattern-design-background-picture-image_1863737.jpg);
+   
 } 
 
 
@@ -152,10 +175,18 @@ section {
 
 #s4 {
     position: relative;
-    left:1150px;
-    bottom: 1200px;
+    left:1250px;
+    bottom: 1350px;
     font-size: 30px;
     
+
+}
+
+
+.lion {
+    position:relative;
+    height:300px;
+
 
 }
 
@@ -168,6 +199,7 @@ section {
     border: solid  rgb(107, 8, 8);
     border-style:double;
     border-width: px;
+   
     
     
 }
