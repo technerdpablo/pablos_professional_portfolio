@@ -1,3 +1,6 @@
+
+
+
 body {
     background-color: black;
     background-repeat: no-repeat;
@@ -21,7 +24,7 @@ body {
     overflow-y: scroll;
     color: rgb(182, 212, 52);
     text-shadow: 2px 4px 4px #000000;
-    font-size: 60px;
+    font-size: 45px;
     padding-right: 30px;
     
   
@@ -35,6 +38,7 @@ body {
 #hat {
     position: relative;
     bottom: 45px;
+    
 }
 
 
